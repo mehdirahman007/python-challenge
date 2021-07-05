@@ -58,8 +58,8 @@ with open(analysis, "w") as output:
     output.write(f"Greatest Increase in Profits: {month_inc} (${mostinc})\n")
     output.write(f"Greates Decrease in Profits: {month_dec} (${mostdec})\n")
 
-with open(analysis) as print_file:
-    print(print_file.read())
+with open(analysis) as print_pybank:
+    print(print_pybank.read())
 
 
 
